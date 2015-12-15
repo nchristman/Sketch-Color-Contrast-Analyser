@@ -132,7 +132,7 @@ function getColorContrastOf(color1, color2) {
 
 	// Calculate contrast
 
-	cr = ((L1 + 0.05) / (L2 + 0.05)).toFixed(1);
+	cr = ((L1 + 0.05) / (L2 + 0.05)).toFixed(2);
 
 	return cr;
 }
