@@ -1,5 +1,5 @@
-// Calculates the color contrast of two layers 
-// Read more about the Web Content Accessibility Guidelines 2.0 
+// Calculates the color contrast of two layers
+// Read more about the Web Content Accessibility Guidelines 2.0
 // http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast
 
 // Based on these algorithms: http://gmazzocato.altervista.org/colorwheel/algo.php
@@ -26,7 +26,7 @@ switch (selection.count()) {
 		// Get Artboard background color
 
 		if ([[doc currentPage] currentArtboard] != null) {
-	
+
 			color2 = [[[doc currentPage] currentArtboard] backgroundColor];
 
 			var cr = getColorContrastOf(color1, color2);
